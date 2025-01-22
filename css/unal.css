@@ -162,7 +162,7 @@ ul.dropdown-menu a:focus {
 	-webkit-transition: width .5s; -moz-transition: width .5s; -o-transition: width .5s; transition: width .5s;
 }
 
-#unalTop .btn-group {
+#unalTop .btn-group .btn {
 	-webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px;
 }
 
@@ -174,7 +174,7 @@ ul.dropdown-menu a:focus {
 	border-top-color: #94b43b; margin-left: 6px;
 }
 
-#unalTop .btn-group:hover,
+#unalTop .btn-group .btn:hover,
 #unalTop .btn-group.open {
 	background-color: #666; border-color: #333;
 }
