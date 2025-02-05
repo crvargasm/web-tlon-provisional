@@ -103,7 +103,7 @@ body.tamanio-letra-120 .tx-unal-accesibilidad {
 }
 
 body.tamanio-letra-120 main.accesibility-on {
-    padding-top: 230px
+    padding-top: 20px
 }
 
 body.tamanio-letra-130 {
@@ -144,7 +144,7 @@ body.tamanio-letra-130 .tx-unal-accesibilidad .panel-content input.letras-porcen
 }
 
 body.tamanio-letra-130 main.accesibility-on {
-    padding-top: 270px
+    padding-top: 20px
 }
 
 
@@ -186,7 +186,7 @@ body.tamanio-letra-140 .tx-unal-accesibilidad .panel-content input.letras-porcen
 }
 
 body.tamanio-letra-140 main.accesibility-on {
-    padding-top: 280px
+    padding-top: 20px
 }
 
 
@@ -236,7 +236,7 @@ body.tamanio-letra-150 .tx-unal-accesibilidad .panel-content input.letras-porcen
 }
 
 body.tamanio-letra-150 main.accesibility-on {
-    padding-top: 300px
+    padding-top: 30px
 }
 
 
@@ -278,7 +278,7 @@ body.tamanio-letra-160 .site-url a {
 }
 
 body.tamanio-letra-160 main.accesibility-on {
-    padding-top: 320px
+    padding-top: 30px
 }
 
 
@@ -320,7 +320,7 @@ body.tamanio-letra-170 .tx-unal-accesibilidad .panel-content input.letras-porcen
 }
 
 body.tamanio-letra-170 main.accesibility-on {
-    padding-top: 330px
+    padding-top: 30px
 }
 
 
@@ -362,7 +362,7 @@ body.tamanio-letra-180 .tx-unal-accesibilidad .panel-content input.letras-porcen
 }
 
 body.tamanio-letra-180 main.accesibility-on {
-    padding-top: 340px
+    padding-top: 30px
 }
 
 
@@ -404,7 +404,7 @@ body.tamanio-letra-190 .tx-unal-accesibilidad .panel-content input.letras-porcen
 }
 
 body.tamanio-letra-190 main.accesibility-on {
-    padding-top: 350px
+    padding-top: 30px
 }
 
 body.tamanio-letra-200 {
@@ -445,12 +445,12 @@ body.tamanio-letra-200 .tx-unal-accesibilidad .panel-content input.letras-porcen
 }
 
 body.tamanio-letra-200 main.accesibility-on {
-    padding-top: 350px
+    padding-top: 30px
 }
 
 
 main.accesibility-on {
-    padding-top: 200px
+    padding-top: 20px
 }
 
 .tx-unal-accesibilidad {
@@ -528,18 +528,29 @@ main.home {
     text-align: center
 }
 
-/*
-.contraste-1 {
-    background-color: red
+body.contraste-1,
+body.contraste-1 main,
+body.contraste-1 main section,
+body.contraste-1 main div {
+  background-color: #000 !important;
+  color: #fff !important;
 }
 
-.contraste-2 {
-    background-color: green
+body.contraste-2,
+body.contraste-2 main,
+body.contraste-2 main section,
+body.contraste-2 main div{
+background-color: #f6f70a !important;
+  color: #1b14fa !important;
 }
 
-.contraste-3 {
-    background-color: blue
-}*/
+body.contraste-3,
+body.contraste-3 main,
+body.contraste-3 main section,
+body.contraste-3 main div {
+  background-color: #EC015F !important;
+  color: #fff !important;
+}
 
 @media(max-width: 767px) {
     #pestania-accesibilidad {
